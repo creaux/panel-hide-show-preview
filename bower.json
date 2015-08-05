@@ -1,0 +1,11 @@
+{
+  "name": "fe_task",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "jasmine": "~2.0.4",
+    "jasmine-jquery": "~2.0.5",
+    "bootstrap": "~3.3.5"
+  },
+  "devDependencies": {}
+}

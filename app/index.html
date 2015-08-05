@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Description Module</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/bootstrap.min.css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <!-- endbuild -->
+    <!-- build:css styles/application.css -->
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/application.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+        <div class="l-container clearfix" style="margin-top:20px;">
+            <h1 class="h4" style="font-weight: bold;">
+                <img src="images/icon-description.png" alt="icon" style="float:left; display:block; margin-top:-2px" />&nbsp;
+                Description
+            </h1>
+            <hr />
+            <div>
+                <p class="p">
+                    Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis <strong>vestibulum</strong>. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. <strong>Donec</strong> id elit non mi porta gravida at eget metus.
+                </p>
+                <p class="p">
+                    Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui. Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum.
+                </p>
+            </div>
+            <div id="more" style="display: none;">
+                <div style="padding:20px 0; text-align: center;">
+                    <img src="images/separator.png" alt="separator" />
+                </div>
+                <h2 class="h4">House rules</h2>
+                <p class="p">
+                    Cras justo odio, dapibus ac facilisis in, egestas eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                </p>
+            </div>
+            <hr />
+            <button class="btn btn-small btn-more pull-right" id="btn-more" onclick="window.app.handler.showMore()">Show more</button>
+            <button class="btn btn-small btn-more pull-right" id="btn-less" onclick="window.app.handler.hideMore()" style="display: none;">Show less</button>
+        </div>
+
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
